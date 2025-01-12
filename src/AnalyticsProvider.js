@@ -8,7 +8,7 @@ const AnalyticsProvider = ({ children }) => {
   usePageTitle('My App');
 
   useEffect(() => {
-    ReactGA.initialize('YOUR_GA4_MEASUREMENT_ID');
+    ReactGA.initialize('G-4345KFVDC8');
     ReactGA.send({
       hitType: 'pageview',
       page: location.pathname + location.search,
