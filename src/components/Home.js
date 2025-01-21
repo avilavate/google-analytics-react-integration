@@ -2,7 +2,12 @@
 import React from 'react';
 
 function Home() {
-  return <h1>Home Page</h1>;
+  return (
+  <div>
+  <h1>Home Page</h1>
+  <button id="Home Button">Click me to Track</button>
+  </div>
+ )
 }
 
 export default Home;
